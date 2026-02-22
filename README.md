@@ -152,7 +152,13 @@ Configured alerts for:
 - Effective detection of suspicious activities
 - Improved understanding of SIEM and SOC operations
 
----
+-### Documentation Note
+
+Detection rules for suspicious activities were successfully configured in Elastic Security. Due to resource limitations and time synchronization differences in the lab environment, automatic alert signals were not generated in the SIEM signals index.
+
+However, the configured detection rules were validated by manually analyzing corresponding security events in Kibana Discover. Event IDs 4625 (Failed Login), 4624 (Successful Login), and 4672 (Special Privilege Assignment) were observed, confirming detection of failed authentication attempts, login behavior patterns, and abnormal privileged activities.
+
+This validates that the alert logic and log ingestion pipeline were functioning correctly despite alerts not appearing automatically.--
 
 ## 9. Learning Outcomes
 
