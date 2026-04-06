@@ -1,5 +1,5 @@
 # ELK-SIEM-Project
-Centralized Log Monitoring and Threat Detection using ELK Stack (SIEM Project)
+Design and Implementation of a Centralized Log Monitoring and Threat Detection using ELK Stack (SIEM Project)
 
 ---
 
